@@ -19,7 +19,7 @@ body {
   line-height: 1.5;
   color: #444;
   text-align: left;
-  background-color: #fff;
+  background-color: #30526e;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -34,6 +34,13 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+
+}
+p {
+  color:black;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: black;
 }
 h1, .h1 {
   font-size: 2.5rem;
@@ -56,6 +63,7 @@ h5, .h5 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #30526e;
 }
 @media (min-width: 576px) {
   .container {
@@ -102,7 +110,7 @@ h5, .h5 {
 .col-6{
   position: relative;
   width: 100%;
-  padding-right: 15px;
+  padding-right: 125px;
   padding-left: 15px;
 }
 .col-6 {
@@ -221,7 +229,7 @@ h5, .h5 {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
+  background: url(../imgs/dotaheaderfe.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -308,7 +316,7 @@ h5, .h5 {
   padding: 80px 0;
 }
 .section:nth-child(even) {
-  background: #f5f8fc;
+  background: #30526e;
 }
 .section .section-devider {
   display: block;
@@ -341,4 +349,7 @@ h5, .h5 {
 .section.has-img-bg * {
   position: relative;
   z-index: 100;
+}
+.aboba{
+  padding: 5;
 }
